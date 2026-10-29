@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.55" stop-color="#bdbdbd"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </linearGradient>
+    <linearGradient id="d1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c8c8c"/>
+      <stop offset="1" stop-color="#3a3a3a"/>
+    </linearGradient>
+    <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5e5e5e"/>
+      <stop offset="1" stop-color="#1e1e1e"/>
+    </linearGradient>
+    <linearGradient id="d3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- Far, middle and near ridges -->
+  <path d="M0 210 C 140 170 260 190 380 200 S 640 150 780 175 S 1020 190 1200 160 L1200 320 L0 320 Z" fill="url(#d1)"/>
+  <path d="M0 250 C 180 215 330 250 480 235 S 760 205 900 230 S 1100 250 1200 220 L1200 320 L0 320 Z" fill="url(#d2)"/>
+  <path d="M0 285 C 200 255 380 290 600 270 S 980 250 1200 275 L1200 320 L0 320 Z" fill="url(#d3)"/>
+
+  <!-- A glowing data trace winding across the ridges -->
+  <path d="M-40 300 C 200 280 260 245 420 248 S 640 228 760 214 S 980 196 1240 188"
+        fill="none" stroke="url(#trace)" stroke-width="2.5" stroke-linecap="round"
+        stroke-dasharray="14 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="-240" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Title -->
+  <text x="600" y="112" text-anchor="middle" fill="#111111"
+        font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="40" letter-spacing="1">Welcome to Omkar's GitHub</text>
+  <text x="600" y="156" text-anchor="middle" fill="#111111"
+        font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="26">&lt;/&gt;</text>
+</svg>
