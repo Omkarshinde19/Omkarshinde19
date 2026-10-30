@@ -13,8 +13,6 @@
 
 ## 👨‍💻 About me
 
-<img src="assets/network.svg" alt="A small network that heals itself" width="260" align="right"/>
-
 Hello there! I'm **Omkar Shinde**, an **aspiring software developer** and Computer Engineering student in Pune.
 I like building practical software with applied AI: LLM pipelines, small tools that explain themselves,
 and web apps people can actually use.
@@ -24,8 +22,6 @@ and web apps people can actually use.
 🏆 **2nd Runner Up**, DEVCLASH 3.0 national hackathon (2026)<br/>
 🛠️ **Team Lead** for NetHeal at the Infosys ENG NEXT 2026 Hackathon<br/>
 🤝 **Non Tech Co Lead**, Google Developer Groups DIT (2025)
-
-<br clear="right"/>
 
 ## 🚀 Featured projects
 
