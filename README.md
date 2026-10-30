@@ -6,7 +6,7 @@
 
 <a href="https://www.linkedin.com/in/omkar-shinde-b2550432a/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:omkarshinde1790@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/Omkarshinde19/Infosys-hackathon"><img src="https://img.shields.io/badge/NetHeal-000000?style=for-the-badge&logo=github&logoColor=white" alt="NetHeal"/></a>
+<a href="https://netheal-lilac.vercel.app"><img src="https://img.shields.io/badge/NetHeal_Live-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="NetHeal live demo"/></a>
 <a href="https://sleight-eta.vercel.app"><img src="https://img.shields.io/badge/Sleight_Live-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Sleight live demo"/></a>
 
 </div>
@@ -32,9 +32,10 @@ and web apps people can actually use.
 <table>
   <tr>
     <td width="33%" valign="top">
-      <b><a href="https://github.com/Omkarshinde19/Infosys-hackathon">NetHeal</a></b><br/>
+      <b><a href="https://github.com/Omkarshinde19/Netheal">NetHeal</a></b><br/>
       <sub>Python · FastAPI · LLM</sub><br/><br/>
       Finds, explains and fixes faults in a simulated campus network, testing every fix on a copy of the network first.
+      <a href="https://netheal-lilac.vercel.app">Try it live</a>.
     </td>
     <td width="33%" valign="top">
       <b><a href="https://github.com/Omkarshinde19/sleight">Sleight</a></b><br/>
