@@ -1,0 +1,30 @@
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: "45 0 * * *"   # daily, 06:15 IST
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/snake.yml
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Omkarshinde19
+          outputs: |
+            dist/snake.svg?color_snake=#e6edf3&color_dots=#161b22,#30363d,#6e7681,#b1bac4,#f0f6fc
+      - name: Commit if changed
+        run: |
+          sudo cp dist/snake.svg assets/snake.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/snake.svg
+          git diff --cached --quiet || (git commit -m "Update contribution snake" && git pull --rebase && git push)

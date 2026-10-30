@@ -75,6 +75,8 @@ and web apps people can actually use.
 
 <img src="assets/graph.svg" alt="Contribution graph, last 31 days" width="100%"/>
 
-<sub>Cards are regenerated daily by a GitHub Action in this repo.</sub>
+<img src="assets/snake.svg" alt="Snake eating my contribution graph" width="100%"/>
+
+<sub>Cards and snake are regenerated daily by GitHub Actions in this repo.</sub>
 
 </div>
